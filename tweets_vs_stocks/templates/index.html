@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tweets_vs_stocks</title>
+  <link 
+    rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link 
+  rel ="stylesheet" 
+  href="static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="w3-bar w3-border w3-light-grey">
+        <a href="index.html" class="w3-bar-item w3-button w3-blue">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">About</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    <div class="w3-center w3-padding-16">UofT Data Analytics Bootcamp; Apr-Sept 2021</div>
+    <h3>Home</h3>
+
+    <div class="container">
+      <div class="w3-container w3-padding-16 w3-center">  
+        <h1>Tweets vs Tesla Stocks Trends</h1> 
+      </div> 
+      <div class="row">
+        <div class="col-md-5">
+          <div id="bar"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="bubble"></div>
+        </div>
+      </div>
+
+      <img src="../static/images/Likes_vs_Stocks_Trading_Volume2.png" alt="Most Frequent Words" style="width: 50%; height:Auto;">
+      <img src="../static/images/piechart.png" alt="Most Frequent Words" style="width: 30%; height:Auto;">
+
+
+    <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+      <div class="w3-bar">
+        <!-- <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a> -->
+        <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="contact.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+      </div>  
+    </div>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./static/js/charts.js"></script> 
+
+  </div>
+</body>
+</html>
